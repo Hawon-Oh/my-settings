@@ -1,0 +1,18 @@
+{
+    "notebook.confirmDeleteRunningCell": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Default Light Modern",
+    "explorer.confirmDelete": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "notebook.lineNumbers": "on",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.lnk": "default"
+    }
+}

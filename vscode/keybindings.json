@@ -1,0 +1,54 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "insert",
+        "command": "deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "delete",
+        "command": "-deleteRight",
+        "when": "textInputFocus"
+    },
+C:\Users\Playdata\AppData\Roaming\Code\User\keybindings.json
+
+    // 한칸씩 이동
+    { "key": "alt+j", "command": "cursorLeft", "when": "editorTextFocus" },
+    { "key": "alt+k", "command": "cursorDown", "when": "textInputFocus" },
+    { "key": "alt+i", "command": "cursorUp", "when": "textInputFocus" },
+    { "key": "alt+l", "command": "cursorRight", "when": "editorTextFocus" },
+
+    // 한칸씩 이동 및 선택
+    { "key": "alt+shift+j", "command": "cursorLeftSelect", "when": "editorTextFocus" },
+    { "key": "alt+shift+k", "command": "cursorDownSelect", "when": "textInputFocus" },
+    { "key": "alt+shift+i", "command": "cursorUpSelect", "when": "textInputFocus" },
+    { "key": "alt+shift+l", "command": "cursorRightSelect", "when": "editorTextFocus" },
+
+    // 단어씩 이동
+    { "key": "alt+ctrl+j", "command": "cursorWordLeft", "when": "editorTextFocus" },
+    { "key": "alt+ctrl+l", "command": "cursorWordRight", "when": "editorTextFocus" },
+    { "key": "alt+ctrl+i", "command": "cursorUp", "when": "editorTextFocus" },
+    { "key": "alt+ctrl+k", "command": "cursorDown", "when": "editorTextFocus" },
+
+    // 단어씩 이동 및 선택
+    {"key": "alt+ctrl+shift+j", "command": "cursorWordLeftSelect", "when": "textInputFocus && !accessibilityModeEnabled"},
+    {"key": "alt+ctrl+shift+l", "command": "cursorWordRightSelect", "when": "textInputFocus && !accessibilityModeEnabled"},
+    {"key": "alt+ctrl+shift+i", "command": "cursorUpSelect", "when": "textInputFocus && !accessibilityModeEnabled"},
+    {"key": "alt+ctrl+shift+k", "command": "cursorDownSelect", "when": "textInputFocus && !accessibilityModeEnabled"},
+
+    // 라인 이동
+
+
+
+    // 한칸씩 삭제
+    { "key": "alt+u", "command": "deleteLeft", "when": "editorTextFocus" },
+    { "key": "alt+o", "command": "deleteRight", "when": "editorTextFocus" },
+
+    // 한줄씩 삭제
+    { "key": "alt+u", "command": "deleteLeft", "when": "editorTextFocus" },
+    { "key": "alt+o", "command": "deleteRight", "when": "editorTextFocus" },
+
+    // intellisense 추천 선택
+    { "key": "alt+i", "command": "selectPrevSuggestion", "when": "suggestWidgetVisible" },
+    { "key": "alt+k", "command": "selectNextSuggestion", "when": "suggestWidgetVisible" },
+]
